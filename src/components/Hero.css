@@ -1,0 +1,40 @@
+.hero {
+    background-image: url('C:/Users/reddy/OneDrive/Desktop/healthcare/health/src/assets/hero-image.png'); /* Use forward slashes */
+    background-size: cover; /* Ensures the image covers the whole section */
+    background-position: center;
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100vw; /* Ensures the section covers the full width of the viewport */
+    height: 600px; /* Adjust as needed for the hero height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    margin: 0; /* Remove any default margins */
+}
+
+.hero-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Corrected the rgba format */
+    padding: 40px;
+    border-radius: 8px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: green;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--secondary-green);
+}
